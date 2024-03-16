@@ -21,7 +21,6 @@ function generateStudentMarkSheets(students, Details) {
     return studentsMarkSheets;
 }
 
-// Input data
 const students = [
     { name: "Dhishan Debnath", Roll: 1 },
     { name: "Animesh Gupta", Roll: 2 },
@@ -37,6 +36,5 @@ const Details = [
     { Roll: 2, subjects: { math: 55, english: 56, computer: 48, chemistry: 12 } }
 ];
 
-// Generate student mark sheets
 const studentsMarkSheets = generateStudentMarkSheets(students, Details);
 console.log(studentsMarkSheets);
